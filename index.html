@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cssfont/all.min.css">
+    <link rel="stylesheet" href="webfonts/fa-brands-400.ttf">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+
+        <div class="firstSection">
+            <input type="text" id="task" placeholder="Write A Task">
+            <button id="add">Add</button>
+        </div>
+        <table class="output" id="output" >
+        </table>
+        <button id="deleteAll">Delete All</button>
+    </div>
+    <div id="permission">
+        <h1>Deleted task</h1>
+        <p>Are you sure you want to delete this task?</p>
+        <div class="yesOrNo">
+            <button id="ok">ok</button>
+            <button id="cancel">cancel</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
